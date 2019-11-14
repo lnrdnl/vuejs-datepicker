@@ -7,9 +7,10 @@
         box-sizing border-box
 
 .vdp-datepicker__calendar
+    color #f7fafc
     position absolute
     z-index 100
-    background white
+    background #2d3748
     width 300px
     border 1px solid #ccc
     header
@@ -53,7 +54,7 @@
         .up:not(.disabled)
             cursor pointer
             &:hover
-                background #eee
+                background #4A5568
 
     .disabled
         color #ddd
@@ -77,13 +78,13 @@
         &:not(.blank):not(.disabled).year
             cursor pointer
             &:hover
-                border 1px solid #4bd
+                border 1px solid #ED8936
         &.selected
-            background #4bd
+            background #ED8936
             &:hover
-                background #4bd
+                background #ED8936
             &.highlighted
-                background #4bd
+                background #ED8936
         &.highlighted
             background #cae5ed
             &.disabled
