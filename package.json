@@ -26,7 +26,6 @@
   "private": false,
   "license": "MIT",
   "scripts": {
-    "prepare": "npm install && npm run build",
     "build": "npm run lint && rm -rf dist/* && rollup -c scripts/build.js && rollup -c scripts/build-locale.js",
     "serve": "rollup -c scripts/serve.js --watch",
     "test": "jest --config test/unit/jest.conf.js --coverage",
