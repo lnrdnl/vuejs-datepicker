@@ -11,6 +11,7 @@
     </span>
     <!-- Input -->
     <input
+      class="w-full p-2 bg-gray-800"
       :type="inline ? 'hidden' : 'text'"
       :class="computedInputClass"
       :name="name"

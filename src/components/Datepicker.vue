@@ -1,5 +1,6 @@
 <template>
   <div class="vdp-datepicker" :class="[wrapperClass, isRtl ? 'rtl' : '']">
+    <slot name="label"></slot>
     <date-input
       :selectedDate="selectedDate"
       :resetTypedDate="resetTypedDate"
